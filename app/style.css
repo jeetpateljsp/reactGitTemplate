@@ -1,0 +1,49 @@
+html, body, #app {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  margin: 20px;
+}
+
+.navbar-container {
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 100px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 500px;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.submit-button {
+  margin: 0px 10px;
+  padding: 1px 10px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+.submit-button:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
